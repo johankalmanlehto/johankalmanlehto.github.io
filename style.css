@@ -1,0 +1,96 @@
+body {
+background-color: white;
+}
+
+header {
+position: absolute;
+height: 100px;
+background-color: white;
+min-width: 100%;
+margin: 0px auto;
+top: 0px;
+left: 0px;
+}
+
+h1 {
+color: black;
+font-family: "Helvetica";
+text-align: center;
+font-size: 70px;
+margin: 0px auto;
+}
+
+h2 {
+color: black;
+font-family: "Helvetica";
+}
+
+sidebar {
+  position: fixed;
+  top: 100px;
+  left: 40px;
+  width: 200px;
+}
+
+ul {
+list-style-type: none;
+}
+
+a:link, a:visited {
+color: white;
+display: block;
+font-size: 30px;
+background: rgba(0, 0, 0, 0.7);
+margin: 0;
+padding: 10px 10px 10px 10px;
+text-decoration: none;
+}
+
+a:hover, a:active {
+background-color: black;
+}
+
+article {
+background: rgba(255, 255, 255, 0.7);
+background-origin: border-box;
+width: 400px;
+height: 100%;
+margin: 80px 40px 40px 280px;
+padding: 30px 30px 30px 30px;
+overflow: visible;
+}
+
+p {
+color: black;
+font-family: "Helvetica";
+font-size: 20px;
+text-align: justify;
+height: 100%;
+padding: 2px 2px 2px 2px;
+}
+
+@media only screen and (max-device-width: 1081px) {
+
+body {
+background: none;
+}
+
+header {
+background-color: black;
+height: 93px;
+width: auto;
+position: absolute;
+}
+
+sidebar {
+display: none;
+}
+
+article {
+position: relative;
+left: 0;
+top: 100px;
+width: auto;
+color: black;
+}
+}
